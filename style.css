@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    
+    font-family: sans-serif;
+    transition: all .5s ease;
+}
+.solver {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    background: url(bg_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5px;
+    border-bottom: 1px solid black;
+}
+.headline i {
+    font-size: 24px;
+    cursor: pointer;
+}
+.headline h1 {
+    cursor: pointer;
+}
+.headline h1 a {
+    color: black;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 180px;
+}
+.choice a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.choice a:hover {
+    text-decoration: underline;
+}
+.facteurpremier {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding-top: 40px;
+}
+.facteurpremier button {
+    width: 150px;
+    height: 50px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.fonction {
+    width: 200px;
+    height: 50px;
+    margin: 20px 100px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.ppcm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    margin-top: 25%;
+}
+.ppcm h1 {
+    margin-bottom: 20px;
+}
+.ppcm form {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+form input {
+    border: 2px solid black;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    transition: .3s;
+}
+form input:focus {
+    width: 100px;
+}
+.generate {
+    display: flex;
+    margin-top: 20px;
+}
+.generate button {
+    font-size: 14px;
+    height: 25px;
+    padding-inline: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.generate button i {
+    margin-left: 5px;
+}
+.generate .reset {
+    background-color: red;
+}
+.generate .calcul {
+    background-color: green;
+}
+.result {
+    margin-top: 30px;
+}
+.result input {
+    pointer-events: none;
+}
+.fx {
+    width: 100%;
+    height: 100vh;
+}
+.fx h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fx form {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-left: 20px;
+}
+.fx form input {
+    border: 2px solid black;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.result {
+    pointer-events: none;
+}
+.fx .input {
+    display: flex;
+    justify-content: start;
+}
+.fx .function {
+    width: 200px;
+}
+.menu {
+    height: 65px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 25px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding-top: 10px;
+}
+.menu .s {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.menu i {
+    cursor: pointer;
+}
+.menu a {
+    color: black;
+}
+.contain {
+    margin-top: 20px;
+    margin-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;    
+}
+.fx .result input {
+    width: 150px;
+}
+.graphe {
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-inline: 20px;
+
+}
